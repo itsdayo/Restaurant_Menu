@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 class AddFishForm extends React.Component {
   nameRef = React.createRef();
@@ -7,18 +8,23 @@ class AddFishForm extends React.Component {
   descRef = React.createRef();
   imageRef = React.createRef();
 
-  createFish = event => {
+  static propTypes = {
+    addFish: PropTypes.func,
+  };
+
+  createFish = (event) => {
     //   stop the form from submitting
-    console.log(this.nameRef);
+
     event.preventDefault();
     const fish = {
-      name: this.nameRef.value,
-      price: parseFloat(this.priceRef.value),
-      status: this.statusRef.value,
-      desc: this.descRef.value,
-      image: this.imageRef.value
+      name: this.nameRef.current.value,
+      price: parseFloat(this.priceRef.current.value),
+      status: this.statusRef.current.value,
+      desc: this.descRef.current.value,
+      image: this.imageRef.current.value,
     };
     this.props.addFish(fish);
+    console.log(fish);
     // refresh the form
     event.currentTarget.reset();
   };
@@ -30,7 +36,7 @@ class AddFishForm extends React.Component {
           name="price"
           ref={this.priceRef}
           type="text"
-          placeholder="Price"
+          placeholder="Price in cents or $00.00"
         />
         <select name="status" ref={this.statusRef}>
           <option value="available">Fresh!</option>

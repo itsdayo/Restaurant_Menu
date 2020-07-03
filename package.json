@@ -8,16 +8,16 @@
   },
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
-    "firebase": "^4.10.1",
-    "prop-types": "^15.6.0",
-    "re-base": "3.2.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.3.0-alpha.1",
-    "react-router-dom": "^4.2.2",
-    "react-transition-group": "^2.2.1",
+    "firebase": "^7.15.5",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "re-base": "^4.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^4.3.1",
+    "react-transition-group": "^2.9.0",
     "serve": "^6.5.8",
-    "stylus": "0.54.5",
-    "node-sass": "^4.12.0"
+    "stylus": "0.54.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,5 +38,17 @@
     "url": "https://github.com/oladayo4351/Restaurant_Menu/issues"
   },
   "homepage": "https://github.com/oladayo4351/Restaurant_Menu#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "description": ""
 }

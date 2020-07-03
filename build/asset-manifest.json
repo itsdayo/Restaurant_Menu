@@ -1,15 +1,23 @@
 {
-  "main.css": "static/css/main.1853ac04.css",
-  "main.css.map": "static/css/main.1853ac04.css.map",
-  "main.js": "static/js/main.0f9043ea.js",
-  "main.js.map": "static/js/main.0f9043ea.js.map",
-  "static/media/anchor.svg": "static/media/anchor.d2f8799a.svg",
-  "static/media/blanch_caps_inline-webfont.eot": "static/media/blanch_caps_inline-webfont.73a576a8.eot",
-  "static/media/blanch_caps_inline-webfont.svg": "static/media/blanch_caps_inline-webfont.7bbffda6.svg",
-  "static/media/blanch_caps_inline-webfont.ttf": "static/media/blanch_caps_inline-webfont.8345e1b3.ttf",
-  "static/media/blanch_caps_inline-webfont.woff": "static/media/blanch_caps_inline-webfont.1461f8e9.woff",
-  "static/media/haymaker-webfont.eot": "static/media/haymaker-webfont.4c3fb584.eot",
-  "static/media/haymaker-webfont.svg": "static/media/haymaker-webfont.cf798e30.svg",
-  "static/media/haymaker-webfont.ttf": "static/media/haymaker-webfont.e9535f20.ttf",
-  "static/media/haymaker-webfont.woff": "static/media/haymaker-webfont.751e5627.woff"
+  "files": {
+    "main.css": "/oladayo4351/Restaurant_Menustatic/css/main.5585624c.chunk.css",
+    "main.js": "/oladayo4351/Restaurant_Menustatic/js/main.f61de463.chunk.js",
+    "main.js.map": "/oladayo4351/Restaurant_Menustatic/js/main.f61de463.chunk.js.map",
+    "runtime-main.js": "/oladayo4351/Restaurant_Menustatic/js/runtime-main.afb68e37.js",
+    "runtime-main.js.map": "/oladayo4351/Restaurant_Menustatic/js/runtime-main.afb68e37.js.map",
+    "static/js/2.6c1bd022.chunk.js": "/oladayo4351/Restaurant_Menustatic/js/2.6c1bd022.chunk.js",
+    "static/js/2.6c1bd022.chunk.js.map": "/oladayo4351/Restaurant_Menustatic/js/2.6c1bd022.chunk.js.map",
+    "index.html": "/oladayo4351/Restaurant_Menuindex.html",
+    "precache-manifest.c5f3c6495c0603516f6d9bafe15b0c84.js": "/oladayo4351/Restaurant_Menuprecache-manifest.c5f3c6495c0603516f6d9bafe15b0c84.js",
+    "service-worker.js": "/oladayo4351/Restaurant_Menuservice-worker.js",
+    "static/css/main.5585624c.chunk.css.map": "/oladayo4351/Restaurant_Menustatic/css/main.5585624c.chunk.css.map",
+    "static/js/2.6c1bd022.chunk.js.LICENSE.txt": "/oladayo4351/Restaurant_Menustatic/js/2.6c1bd022.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/oladayo4351/Restaurant_Menustatic/media/haymaker-webfont.e9535f20.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afb68e37.js",
+    "static/js/2.6c1bd022.chunk.js",
+    "static/css/main.5585624c.chunk.css",
+    "static/js/main.f61de463.chunk.js"
+  ]
 }

@@ -27,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
-    "build": "CI= react-scripts build",
+    "build": "react-scripts build",
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
     "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
@@ -43,9 +43,16 @@
     "url": "https://github.com/oladayo4351/Restaurant_Menu/issues"
   },
   "homepage": "https://github.com/oladayo4351/Restaurant_Menu#readme",
-  "browserslist": [
-    "defaults",
-    "not dead"
-  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "description": ""
 }

@@ -1,6 +1,9 @@
 {
   "name": "cotd",
   "version": "0.0.3",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "devDependencies": {
     "concurrently": "3.5.1",

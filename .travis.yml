@@ -3,6 +3,8 @@ node_js:
   - '4.0'
 script:
   - echo "Deploying!"
+os:
+  - 'macOS'
 # install:
 #   - npm install -g firebase-tools
 after success:

@@ -46,7 +46,6 @@
   "bugs": {
     "url": "https://github.com/itsdayo/Restaurant_Menu/issues"
   },
-  "homepage": "https://github.com/itsdayo/Restaurant_Menu#readme",
   "browserslist": {
     "production": [
       ">0.2%",

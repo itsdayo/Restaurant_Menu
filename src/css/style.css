@@ -1,3 +1,8 @@
+@import './_animations.css';
+@import './_fonts.css';
+@import './_normalize.css';
+@import './_typography.css';
+
 .order-enter {
   transform: translateX(-120%);
   transition: 0.5s;

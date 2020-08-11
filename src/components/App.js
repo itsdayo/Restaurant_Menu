@@ -89,7 +89,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="catch-of-the-day">
-        {/* <div className="menu">
+        <div className="menu">
           <Header tagline="Fresh SeaFood Market" />
           <ul className="fishes">
             {Object.keys(this.state.fishes).map((key) => (
@@ -113,8 +113,7 @@ class App extends React.Component {
           deleteFish={this.deleteFish}
           loadSampleFishes={this.loadSampleFishes}
           fishes={this.state.fishes}
-        /> */}
-        Hello
+        />
       </div>
     );
   }

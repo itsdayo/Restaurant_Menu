@@ -27,7 +27,7 @@
     "stylus-loader": "^3.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "sleep 1 && react-scripts start",
     "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
     "build": "CI= react-scripts build",
     "eject": "react-scripts eject",
